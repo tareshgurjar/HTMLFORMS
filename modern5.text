@@ -1,0 +1,4 @@
+5. Write a short note on tab index.
+tabindex="0" means that the element should be focusable in sequential keyboard navigation, after any positive tabindex values. The focus navigation order of these elements is defined by their order in the document source.
+A positive value means the element should be focusable in sequential keyboard navigation, with its order defined by the value of the number. That is, tabindex="4" is focused before tabindex="5" and tabindex="0", but after tabindex="3". If multiple elements share the same positive tabindex value, their order relative to each other follows their position in the document source. The maximum value for tabindex is 32767.
+If the tabindex attribute is included with no value set, whether the element is focusable is determined by the user agent.

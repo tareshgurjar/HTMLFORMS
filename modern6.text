@@ -1,0 +1,8 @@
+6. List any 5 semantic tags in HTML along with thier descriptions.
+Ans:The following HTML tags can be used to break your page into identified parts:
+
+<header>: t defines a header for a web page.
+<nav>: It defines a container for navigation links.
+<section>: This defines a section in a web page.
+<article>: This element contains the main part, containing information about the web page.
+<aside>: The <aside> content is often placed as a sidebar in a document.
